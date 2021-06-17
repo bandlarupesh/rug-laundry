@@ -174,7 +174,10 @@ h1 {
   position: relative;
   top: -20px;
 }
-.social-media-icons {
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+/* .social-media-icons {
   margin-left: 15px;
 }
 
@@ -184,7 +187,7 @@ h1 {
 .social-media-icons ul {
   list-style: none;
   margin-top: 10px;
-}
+} */
 .colr {
   background: #048630;
 }

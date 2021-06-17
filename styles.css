@@ -64,7 +64,8 @@ h1 {
   background: #0e6bad;
   font: normal normal 16px/19px Lato;
 }
-.nav li a {
+
+.navbar-dark .navbar-nav .nav-link{
   color: white;
 }
 
