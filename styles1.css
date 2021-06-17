@@ -1,13 +1,16 @@
-* {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
   font-family: "Lato", sans-serif;
-}
-
-.top-nav {
-  padding: 15px 0;
-}
-
-body{
-  margin: 0 20px;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -22,8 +25,9 @@ h1 {
   font: normal normal medium 18px/27px Lato;
 }
 .badge-text {
-  font: normal normal bold 18px/22px Lato;
+  font: normal normal normal 18px/22px Lato;
   width: 300px;
+  color: #ffffff;
 }
 .p1 {
   font: normal normal normal 21px/30px Lato;
@@ -31,7 +35,14 @@ h1 {
 }
 
 .top-bagde {
-  font: normal normal bold 14px/17px Lato;
+  font: normal normal normal 14px/17px Lato;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.call {
+  font: normal normal normal 18px/22px Lato;
+  color: #ffffff;
 }
 
 .profile-text {
@@ -53,7 +64,8 @@ h1 {
   font: normal normal normal 16px/27px Lato;
 }
 .circle-text {
-  font: normal normal bold 22px/27px Lato;
+  font: normal normal normal 22px/27px Lato;
+  color: #ffffff;
 }
 .circle-text1 {
   font: normal normal normal 16px/19px Lato;
@@ -67,10 +79,11 @@ h1 {
   padding: 5px 20px;
   border-radius: 0px 15px 15px 0px;
   font: normal normal 18px/22px Lato;
+  background: #138bef;
 }
 .uk-premier-para,
 .uk-premier p {
-  font: normal normal medium 14px/21px Lato;
+  font: normal normal normal 14px/21px Lato;
 }
 .uk-premier h6 {
   font: normal normal bold 16px/20px Lato;
@@ -94,7 +107,7 @@ h1 {
   color: white;
 }
 
-.card.h-100{
+.card.h-100 {
   border-radius: 0;
   transition: box-shadow 0.5s;
 }
@@ -110,6 +123,10 @@ h1 {
 .card-body {
   font: normal normal normal 14px/17px Lato;
   letter-spacing: 0.14px;
+}
+
+.text-muted {
+  color: #cfd1cf;
 }
 
 .card-footer {
@@ -129,9 +146,13 @@ h1 {
 }
 
 .card-carousel {
-  background: #0e6bad;
+  background: #107ac7;
   padding: 40px 30px 60px;
   /* margin: 4px; */
+}
+
+.card-text {
+  font: normal normal normal 16px/30px Lato;
 }
 
 .card-title {
@@ -148,7 +169,39 @@ h1 {
 .name {
   font: normal normal bold 14px/27px Lato;
 }
-
 .badges {
-  margin-bottom: -20px;
+  margin-bottom: -45px;
+  position: relative;
+  top: -20px;
+}
+.social-media-icons {
+  margin-left: 15px;
+}
+
+.social-media-icons ul li {
+  margin: 0 3px;
+}
+.social-media-icons ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.colr {
+  background: #048630;
+}
+.footer-heading {
+  font: normal normal bold 24px/29px Lato;
+  padding-bottom: 20px;
+}
+.footer-text {
+  font: normal normal normal 14px/17px Lato;
+  color: #f4f4f4;
+}
+.footer-text p {
+  padding-bottom: 10px;
+}
+.footer-bottom {
+  font: normal normal bold 12px/15px Lato;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  text-transform: uppercase;
 }

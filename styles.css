@@ -1,18 +1,24 @@
-* {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  margin: 0 30px;
-}
-
-.top-nav {
-  padding: 15px 0;
+.header-brand {
+  margin-right: 30px;
 }
 
 h1 {
   font: normal normal bold 42px/50px Lato;
-  letter-spacing: 0px;
 }
 
 .p1 {
@@ -21,7 +27,10 @@ h1 {
 }
 
 .top-bagde {
-  font: normal normal bold 14px/17px Lato;
+  font: normal normal normal 14px/17px Lato;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
 
 .profile-text {
@@ -29,6 +38,26 @@ h1 {
 }
 .profile-phone {
   font: normal normal bold 28px/34px Lato;
+}
+
+.social-media-icons {
+  margin-left: 15px;
+}
+
+.social-media-icons ul li {
+  margin: 0 3px;
+}
+.social-media-icons ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.bg-light {
+  color: #f4f4f4;
+}
+
+.colr {
+  background: #048630;
 }
 
 .bg-nav {
@@ -39,12 +68,24 @@ h1 {
   color: white;
 }
 
+.uk-landing {
+  padding: 40px;
+}
+
+.uk-landing h1 {
+  line-height: 50px;
+  color: #0e6bad;
+  padding: 20px;
+}
+.uk-landing p {
+  font: normal normal normal 21px/30px Lato;
+  color: #0e6bad;
+}
 .img-badge {
-  bottom: 40px;
-  left: 10px;
   padding: 5px 20px;
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 18px 18px 0px;
   font: normal normal 18px/22px Lato;
+  background: #138bef;
 }
 
 .welcome {
@@ -82,12 +123,16 @@ h1 {
   font: normal normal bold 14px/27px Lato;
 }
 
+.green-circle-section {
+  padding-top: 20px;
+}
+
 .card-footer-name p {
   font: normal normal normal 12px/27px Lato;
 }
 
 .card-carousel {
-  background: #0e6bad;
+  background: #107ac7;
   padding: 30px 20px 40px;
   /* margin: 4px; */
 }
@@ -98,13 +143,15 @@ h1 {
 }
 
 .card-title1 {
-  font: normal normal medium 14px/21px Lato;
+  font: normal normal normal 14px/21px Lato;
+  color: #333333;
 }
 .view-pkg {
   width: 50%;
   margin-bottom: -14px;
   margin-left: 20%;
   font: normal normal bold 12px/15px Lato;
+  background: #0e6bad;
 }
 
 .small-card {
@@ -132,6 +179,7 @@ h1 {
 }
 .our-promise h6 {
   font: normal normal bold 20px/20px Lato;
+  padding: 10px;
 }
 .our-promise p {
   font: normal normal medium 14px/21px Lato;
@@ -139,7 +187,26 @@ h1 {
 
 .latest-news h6 {
   font: normal normal bold 21px/25px Lato;
+  color: #333333;
 }
 .latest-news p {
   font: normal normal bold 12px/15px Lato;
+}
+
+.footer-heading {
+  font: normal normal bold 24px/29px Lato;
+  padding-bottom: 20px;
+}
+.footer-text {
+  font: normal normal normal 14px/17px Lato;
+  color: #f4f4f4;
+}
+.footer-text p {
+  padding-bottom: 10px;
+}
+.footer-bottom {
+  font: normal normal bold 12px/15px Lato;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
