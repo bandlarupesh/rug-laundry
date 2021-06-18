@@ -13,9 +13,9 @@ a {
   padding: 0;
 }
 
-.header-brand {
+/* .header-brand {
   margin-right: 30px;
-}
+} */
 
 h1 {
   font: normal normal bold 42px/50px Lato;
@@ -30,7 +30,7 @@ h1 {
   font: normal normal normal 14px/17px Lato;
   margin-left: 10px;
   margin-right: 10px;
-
+  padding: 6px 20px;
 }
 
 .profile-text {
@@ -39,17 +39,29 @@ h1 {
 .profile-phone {
   font: normal normal bold 28px/34px Lato;
 }
-
-.social-media-icons {
-  margin-left: 15px;
+.nav-link.fa {
+  padding: 10px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20px;
 }
 
-.social-media-icons ul li {
-  margin: 0 3px;
+.fa-facebook {
+  background: #3b5998;
+  color: white;
 }
-.social-media-icons ul {
-  list-style: none;
-  margin-top: 10px;
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: transparent linear-gradient(42deg, #F4B831 0%, #EF5073 55%, #874B9E 100%) 0% 0% no-repeat padding-box;  color: white;
 }
 
 .bg-light {
@@ -61,11 +73,11 @@ h1 {
 }
 
 .bg-nav {
-  background: #0e6bad;
-  font: normal normal 16px/19px Lato;
+  background: #0E6BAD;
+  font: normal normal normal 16px/19px Lato;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: white;
 }
 
@@ -86,7 +98,7 @@ h1 {
   padding: 5px 20px;
   border-radius: 0px 18px 18px 0px;
   font: normal normal 18px/22px Lato;
-  background: #138bef;
+  background: #0E6BAD;
 }
 
 .welcome {
