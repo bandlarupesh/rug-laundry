@@ -60,8 +60,16 @@ h1 {
   color: white;
 }
 
+.nav-link.fa-phone {
+  background: green;
+  color: white;
+}
+
 .fa-instagram {
-  background: transparent linear-gradient(42deg, #F4B831 0%, #EF5073 55%, #874B9E 100%) 0% 0% no-repeat padding-box;  color: white;
+  background: transparent
+    linear-gradient(42deg, #f4b831 0%, #ef5073 55%, #874b9e 100%) 0% 0%
+    no-repeat padding-box;
+  color: white;
 }
 
 .bg-light {
@@ -73,7 +81,7 @@ h1 {
 }
 
 .bg-nav {
-  background: #0E6BAD;
+  background: #0e6bad;
   font: normal normal normal 16px/19px Lato;
 }
 
@@ -98,7 +106,7 @@ h1 {
   padding: 5px 20px;
   border-radius: 0px 18px 18px 0px;
   font: normal normal 18px/22px Lato;
-  background: #0E6BAD;
+  background: #0e6bad;
 }
 
 .welcome {
@@ -136,10 +144,6 @@ h1 {
   font: normal normal bold 14px/27px Lato;
 }
 
-.green-circle-section {
-  padding-top: 20px;
-}
-
 .card-footer-name p {
   font: normal normal normal 12px/27px Lato;
 }
@@ -147,7 +151,6 @@ h1 {
 .card-carousel {
   background: #107ac7;
   padding: 30px 20px 40px;
-  /* margin: 4px; */
 }
 
 .card-title {
@@ -222,4 +225,40 @@ h1 {
   letter-spacing: 0.36px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+  #green-circle {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+  }
+  #toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #green-circle {
+    padding: 20px 10px;
+  }
+  .circle-text {
+    font: normal normal bold 16px/27px Lato;
+  }
+  .circle-text1 {
+    font: normal normal normal 14px/19px Lato;
+  }
+  #toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .small-card {
+    padding: 10px 10px 0;
+    margin: 4px;
+    height: 248px;
+    width: 100%;
+  }
 }

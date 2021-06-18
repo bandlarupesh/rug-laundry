@@ -20,9 +20,17 @@
     <div class="container align-items-center">
         <nav class="navbar">
             <a class="navbar-brand" href="#">
-                <img class="img-fluid bg-transparent me-5 ms-md-5" src="assets/images/logo.jpeg" alt="logo" height="50px"
+                <img class="img-fluid me-md-5 ms-md-5" src="assets/images/logo.jpeg" alt="logo" height="50px"
                     width="250px" />
             </a>
+
+            <a href="#" class="fa fa-phone nav-link d-block d-sm-none"></a>
+
+            <a class="d-none d-sm-block d-md-none" href="#">
+                <span class="badge rounded-pill bg-success top-bagde"><i class="fa fa-pencil"
+                        style="font-size:14px;padding: 6px;"></i>Free Quote</span> </a>
+
+
             <ul class="navbar-nav flex-row d-none d-md-flex align-items-center me-auto">
                 <li class="nav-item me-3 ms-5">
                     <a class="nav-link" href="#">
@@ -60,7 +68,7 @@
         </nav>
     </div>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-nav">
-        <div class="container">
+        <div class="container" id="toggle-btn">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -68,25 +76,25 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item me-5 ms-5">
+                    <li class="nav-item me-5 ms-3">
                         <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li class="nav-item me-5 ms-5">
+                    <li class="nav-item me-5 ms-3">
                         <a class="nav-link" href="#">Services</a>
                     </li>
-                    <li class="nav-item me-5 ms-5">
+                    <li class="nav-item me-5 ms-3">
                         <a class="nav-link" href="#">Packages</a>
                     </li>
-                    <li class="nav-item me-5 ms-5">
+                    <li class="nav-item me-5 ms-3">
                         <a class="nav-link" href="#">Areas</a>
                     </li>
-                    <li class="nav-item me-5 ms-5">
+                    <li class="nav-item me-5 ms-3">
                         <a href="" class="nav-link">Rugs</a>
                     </li>
-                    <li class="nav-item me-5 ms-5">
+                    <li class="nav-item me-5 ms-3">
                         <a href="" class="nav-link">Blogs</a>
                     </li>
-                    <li class="nav-item me-5 ms-5">
+                    <li class="nav-item me-5 ms-3">
                         <a href="" class="nav-link">Contacts</a>
                     </li>
                 </ul>
@@ -97,10 +105,10 @@
         <img src="assets/images/img-1.png" alt="Rugs" width="100%" height="400px">
     </div>
     <div class="position-relative">
-        <div class="card w-50 text-center position-absolute top-0 start-50 translate-middle top-card">
+        <div class="card text-center position-absolute top-0 start-50 translate-middle top-card">
             <div class="card-body">
-                <h4 class="welcome p-4">What type of Rug do you need Cleaning?</h4>
-                <p class="card-para pb-3">Choose the type of rug you have to see how we pamper and revive your rug in
+                <h4 class="welcome pb-2">What type of Rug do you need Cleaning?</h4>
+                <p class="card-para">Choose the type of rug you have to see how we pamper and revive your rug in
                     our<br>
                     dedicated,<span class="text-primary"> 11 step</span> rug cleaning spa…</p>
             </div>
@@ -108,14 +116,16 @@
     </div>
     <div class="pb-5 bg-light">
         <div class="p-5 d-md-flex justify-content-evenly text-sm-center" style="margin-top: 100px;">
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-2">Modern Contemporary Rugs</span>
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-2">Oriental & Middle Eastern Rugs</span>
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-2">Silk & Other Fine Fibre Rugs</span>
+            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Modern Contemporary Rugs</span>
+            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Oriental & Middle Eastern
+                Rugs</span>
+            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Silk & Other Fine Fibre Rugs</span>
         </div>
         <div class="px-5 d-md-flex justify-content-evenly text-sm-center">
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-2">Not Sure What Type?</span>
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-2">Guaranteed Odour Removal</span>
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-2">See Our 11 Step Rug Spa Process*</span>
+            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Not Sure What Type?</span>
+            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Guaranteed Odour Removal</span>
+            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">See Our 11 Step Rug Spa
+                Process*</span>
         </div>
     </div>
     <section class="bg-white container">
@@ -153,13 +163,14 @@
 
                 <div class="p-5">
                     <span class="badge rounded-pill img-badge text-wrap"><i class="fa fa-phone"
-                            style="font-size:18px;padding: 6px;"></i> Call For a Quote Now on 01269 842497
+                            style="font-size:14px;padding: 6px;"></i> Call For a Quote Now on 01269 842497
                     </span>
                 </div>
             </div>
             <div class="col text-center">
-                
-                <div style="background: #45A164;border-radius: 50%;height: 500px; width:500px;display: table-cell;vertical-align: middle;color: white;">
+
+                <div id="green-circle"
+                    style="background: #45A164;height: 500px; width:500px;display: table-cell;vertical-align: middle;color: white;">
                     <p class="circle-text pb-3">
                         We are cleaning and restoring<br> rugs for over 27 years!
                     </p>
@@ -439,7 +450,7 @@
             </div>
             <div class="m-4 text-center">
                 <span class="badge rounded-pill text-wrap img-badge" style="background: #048630;"><i class="fa fa-phone"
-                        style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269 842497
+                        style="font-size:16px;padding: 6px;"></i>Call For a Quote Now on 01269 842497
                 </span>
             </div>
         </div>
@@ -605,24 +616,24 @@
     </section>
 
     <div class="d-flex align-items-center justify-content-evenly badges">
-        <span class="badge rounded-pill bg-primary text-white text-wrap top-bagde d-none d-xxl-block"><i class="fa fa-star"
-                style="font-size:14px;padding: 6px;"></i>Read our Customer Reviews
+        <span class="badge rounded-pill bg-primary text-white text-wrap top-bagde d-none d-xl-block"><i
+                class="fa fa-star" style="font-size:14px;padding: 6px;"></i>Read our Customer Reviews
         </span>
-        <span class="badge rounded-pill colr text-white text-wrap top-bagde"><i class="fa fa-pencil"
-                style="font-size:16px;padding: 6px;"></i>Free Quote
-        </span>
-        <span class="badge rounded-pill colr text-white text-wrap call"><i class="fa fa-phone"
-                style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269
-            842497
-        </span>
-        <div class="d-none d-xxl-block">
+        <div class="d-none d-sm-block">
+            <span class="badge rounded-pill colr text-white text-wrap top-bagde"><i class="fa fa-pencil"
+                    style="font-size:16px;padding: 6px;"></i>Free Quote
+            </span>
+            <span class="badge rounded-pill colr text-white text-wrap call ms-md-5"><i class="fa fa-phone"
+                    style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269
+                842497
+            </span>
+        </div>
+        <div class="d-none d-xl-block">
             <a href="#" class="nav-link fa fa-facebook me-5"></a>
 
-            <a class="nav-link fa fa-youtube me-5" href="#">
-            </a>
+            <a class="nav-link fa fa-youtube me-5" href="#"></a>
 
-            <a class="nav-link fa fa-instagram me-5" href="#">
-            </a>
+            <a class="nav-link fa fa-instagram me-5" href="#"></a>
         </div>
     </div>
     <section class="bg-dark text-white">

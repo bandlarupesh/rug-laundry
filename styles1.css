@@ -62,6 +62,11 @@ h1 {
   color: white;
 }
 
+.nav-link.fa-phone {
+  background: green;
+  color: white;
+}
+
 .fa-instagram {
   background: transparent linear-gradient(42deg, #F4B831 0%, #EF5073 55%, #874B9E 100%) 0% 0% no-repeat padding-box;  color: white;
 }
@@ -224,4 +229,38 @@ h1 {
   letter-spacing: 0.36px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 600px) {
+  #green-circle {
+    border-radius:50%;
+  }
+  .top-card{
+    width: 50%;
+    padding: 20px;
+  }
+  #toggle-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-dark .navbar-toggler{
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ 
+  #toggle-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .badge.img-badge {
+    font: normal normal 12px/20px Lato;
+    background: #138bef;
+  }
+
 }
