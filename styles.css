@@ -89,16 +89,15 @@ h1 {
   color: white;
 }
 
-.uk-landing {
+.uk-leading {
   padding: 40px;
 }
 
-.uk-landing h1 {
-  line-height: 50px;
+.uk-leading h1 {
   color: #0e6bad;
   padding: 20px;
 }
-.uk-landing p {
+.uk-leading p {
   font: normal normal normal 21px/30px Lato;
   color: #0e6bad;
 }
@@ -163,13 +162,21 @@ h1 {
   color: #333333;
 }
 .view-pkg {
-  width: 50%;
-  margin-bottom: -14px;
-  margin-left: 20%;
+  width: 130px;
+  margin-top: 27px;
   font: normal normal bold 12px/15px Lato;
   background: #0e6bad;
 }
-
+#green-circle {
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+}
+#toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .small-card {
   padding: 10px 10px 0;
   margin: 4px;
@@ -227,29 +234,12 @@ h1 {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 600px) {
-  #green-circle {
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-  }
-  #toggle-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
 
 @media screen and (max-width: 600px) {
   #green-circle {
-    padding: 20px 10px;
+    border-radius: 0;
   }
-  .circle-text {
-    font: normal normal bold 16px/27px Lato;
-  }
-  .circle-text1 {
-    font: normal normal normal 14px/19px Lato;
-  }
+ 
   #toggle-btn {
     display: flex;
     align-items: center;
@@ -257,8 +247,9 @@ h1 {
   }
   .small-card {
     padding: 10px 10px 0;
-    margin: 4px;
-    height: 248px;
     width: 100%;
+  }
+  .view-pkg {
+   margin-top: 0;
   }
 }

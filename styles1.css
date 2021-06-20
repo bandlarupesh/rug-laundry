@@ -178,6 +178,12 @@ h1 {
   font-size: 20px;
 }
 
+#green-circle {
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+}
+
 .card-carousel {
   background: #107ac7;
   padding: 40px 30px 60px;
@@ -230,27 +236,24 @@ h1 {
   color: #ffffff;
   text-transform: uppercase;
 }
-
+.navbar-dark .navbar-toggler{
+  color: white;
+}
 
 @media screen and (min-width: 600px) {
-  #green-circle {
-    border-radius:50%;
-  }
+ 
   .top-card{
     width: 50%;
     padding: 20px;
   }
-  #toggle-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .navbar-dark .navbar-toggler{
-    color: white;
-  }
+
 }
 
 @media screen and (max-width: 600px) {
+
+  #green-circle {
+    border-radius:0;
+  }
  
   #toggle-btn{
     display: flex;
