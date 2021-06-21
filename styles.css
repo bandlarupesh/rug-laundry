@@ -89,13 +89,13 @@ h1 {
   color: white;
 }
 
-.uk-leading {
+/* .uk-leading {
   padding: 40px;
-}
+} */
 
 .uk-leading h1 {
   color: #0e6bad;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .uk-leading p {
   font: normal normal normal 21px/30px Lato;
