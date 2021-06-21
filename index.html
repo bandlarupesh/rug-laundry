@@ -17,59 +17,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
+    <!-- for carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- styles -->
     <link href="styles.css" rel="stylesheet">
 
 
 <body>
-    <div class="container-md align-items-center">
-        <nav class="navbar">
-            <a class="navbar-brand" href="#">
-                <img class="img-fluid bg-transparent me-md-5 ms-md-5" src="assets/images/logo.jpeg" alt="logo"
-                    height="50px" width="250px" />
-            </a>
-            <a href="#" class="fa fa-phone nav-link d-block d-sm-none"></a>
+    <div class="container">
+        <div class="d-flex justify-content-md-center align-items-md-center" style="padding: 16px">
+            <div>
+                <img src="assets/images/logo.jpeg" alt="logo" height="50px" width="250px" />
+            </div>
+            <div style="margin-left: auto;padding: 16px;">
+                <a href="#" class="fa fa-phone nav-link d-block d-sm-none"></a>
+                <a class="d-none d-sm-block d-md-none" href="#">
+                    <span class="badge rounded-pill top-bagde" style="background: #048630;"><i class="fa fa-pencil"
+                            style="font-size:14px;padding: 6px"></i>Free Quote</span> </a>
+            </div>
 
-            <a class="d-none d-sm-block d-md-none" href="#">
-                <span class="badge rounded-pill bg-success top-bagde"><i class="fa fa-pencil"
-                        style="font-size:14px;padding: 6px;"></i>Free Quote</span> </a>
+            <div class="d-none d-md-flex">
+                <span class="badge rounded-pill top-bagde" style="background: #138BEF;margin-left: 96px;">
+                    <i class="fa fa-star" style="font-size:14px;padding: 6px"></i>
+                    Read Our Customer Reviews
+                </span>
+                <span class="badge rounded-pill top-bagde" style="margin-left: 24px;background: #048630;"><i
+                        class="fa fa-pencil" style="font-size:14px;padding: 6px;"></i>Free Quote</span> </a>
+                <a href="#" class="fa fa-facebook nav-link" style="margin-left: 24px;"></a>
+                <a class="nav-link fa fa-youtube" href="#" style="margin-left: 16px;"></a>
+                <a class="nav-link fa fa-instagram" href="#" style="margin-left: 16px;"></a>
 
-            <ul class="navbar-nav flex-row d-none d-md-flex align-items-center me-auto">
-                <li class="nav-item me-3 ms-5">
-                    <a class="nav-link" href="#">
-                        <span class="badge rounded-pill bg-primary top-bagde"><i class="fa fa-star"
-                                style="font-size:14px;padding: 6px;"></i>Read Our Customer Reviews</span>
-                    </a>
-                </li>
-                <li class="nav-item me-3">
-                    <a class="nav-link" href="#">
-                        <span class="badge rounded-pill bg-success top-bagde"><i class="fa fa-pencil"
-                                style="font-size:14px;padding: 6px;"></i>Free Quote</span> </a>
-                </li>
-                <li class="nav-item md-2">
-                    <a href="#" class="fa fa-facebook nav-link"></a>
-                </li>
-                <li class="nav-item md-2">
-                    <a class="nav-link fa fa-youtube" href="#">
-                    </a>
-                </li>
-                <li class="nav-item me-3">
-                    <a class="nav-link fa fa-instagram" href="#">
-                    </a>
-                </li>
-                <div class="d-flex align-items-center me-3">
-                    <div class="text-wrap px-2">
-                        <span class="text-success"><small class="profile-text">Call us any time to get a free
-                                quote</small></span>
-                        <h3 class="profile-phone">01269 842497</h3>
-                    </div>
-                    <div>
-                        <img src="assets/images/Profile.png" alt="profile" height="48px" width="48px">
-                    </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center d-none d-md-flex" style="margin-left: 32px;">
+                <div>
+                    <span style="color: #048630;">
+                        <small class="profile-text">
+                            Call us any time to get a free quote
+                        </small>
+                    </span>
+                    <h3 class="profile-phone">01269 842497</h3>
                 </div>
-            </ul>
-        </nav>
+                <div style="margin-left: 16px;">
+                    <img src="assets/images/Profile.png" alt="profile" height="48px" width="48px">
+                </div>
+            </div>
+        </div>
     </div>
+
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-nav">
         <div class="container" id="toggle-btn">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -104,60 +104,61 @@
             </div>
         </div>
     </nav>
-    <section class="bg-light pb-4">
+    <section class="bg-color" style="padding-bottom: 96px;">
         <div class="text-center uk-leading">
-            <h1 class="pt-5 pb-2">
+            <h1 style="padding:56px 0 20px 0">
                 The UK’s Leading Rug Cleaning Specialists
             </h1>
-            <p class="pt-2">
+            <p>
                 Enjoy a cleaner, brighter & healthier home or office that you'll feel proud of again.
             </p>
-            <p class="pb-5"> We are
+            <p style="padding-bottom: 50px;">
+                We are
                 still
                 open and for your Peace of Mind click here to see our 'Coronavirus Reassurance Promise'.
             </p>
         </div>
         <div class="container-lg">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col position-relative">
-                    <img src="assets/images/img-1.png" class="img-thumbnail" alt="image1" width="100%">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col position-relative top-images">
+                    <img src="assets/images/img-1.png" class="img-thumbnail" alt="image1">
                     <div class="position-absolute top-50 start-0 translate-middle-y">
-                        <span class="badge img-badge m-3 p-2 text-wrap">Rug
+                        <span class="badge img-badge mx-3 p-2 text-wrap">Rug
                             Repair</span>
                     </div>
                 </div>
-                <div class="col position-relative">
-                    <img src="assets/images/img-2.png" class="img-thumbnail" alt="image2" width="100%">
+                <div class="col position-relative top-images">
+                    <img src="assets/images/img-2.png" class="img-thumbnail" alt="image2">
                     <div class="position-absolute top-50 start-0 translate-middle-y">
-                        <span class="badge img-badge m-3 p-2 text-wrap">Pet
+                        <span class="badge img-badge mx-3 p-2 text-wrap">Pet
                             Treatment</span>
                     </div>
                 </div>
-                <div class="col position-relative">
-                    <img src="assets/images/img-3.png" class="img-thumbnail" alt="image3" width="100%">
+                <div class="col position-relative top-images">
+                    <img src="assets/images/img-3.png" class="img-thumbnail" alt="image3">
                     <div class="position-absolute top-50 start-0 translate-middle-y">
-                        <span class="badge img-badge m-3 p-2 text-wrap">Rug
+                        <span class="badge img-badge mx-3 p-2 text-wrap">Rug
                             Dyeing</span>
                     </div>
                 </div>
-                <div class="col position-relative">
-                    <img src="assets/images/img-4.png" class="img-thumbnail" alt="image4" width="100%">
+                <div class="col position-relative top-images">
+                    <img src="assets/images/img-4.png" class="img-thumbnail" alt="image4">
                     <div class="position-absolute top-50 start-0 translate-middle-y">
-                        <span class="badge img-badge m-3 p-2 text-wrap">Rug
+                        <span class="badge img-badge mx-3 p-2 text-wrap">Rug
                             Dyeing</span>
                     </div>
                 </div>
-                <div class="col position-relative">
-                    <img src="assets/images/img-5.png" class="img-thumbnail" alt="image5" width="100%">
+                <div class="col position-relative top-images">
+                    <img src="assets/images/img-5.png" class="img-thumbnail" alt="image5">
                     <div class="position-absolute top-50 start-0 translate-middle-y">
-                        <span class="badge img-badge m-3 p-2 text-wrap">Commercial
+                        <span class="badge img-badge mx-3 p-2 text-wrap">Commercial
                             Cleaning</span>
                     </div>
                 </div>
-                <div class="col position-relative">
-                    <img src="assets/images/img-6.png" class="img-thumbnail" alt="image6" width="100%">
+                <div class="col position-relative top-images">
+                    <img src="assets/images/img-6.png" class="img-thumbnail" alt="image6">
                     <div class="position-absolute top-50 start-0 translate-middle-y">
-                        <span class="badge img-badge m-3 p-2 text-wrap">Leather
+                        <span class="badge img-badge mx-3 p-2 text-wrap">Leather
                             Furniture
                             Cleaning</span>
                     </div>
@@ -165,60 +166,59 @@
             </div>
         </div>
     </section>
-    <section class="container-lg bg-white pt-4">
+    <section class="container-lg bg-white">
         <div class="row row-cols-1 row-cols-md-2">
-            <div class="col text-center">
-                <h1 class="welcome pb-4">
+            <div class="col text-center welcome-rug-laundry">
+                <h1 class="welcome">
                     Welcome to The Rug Laundry.
                 </h1>
-                <p class="para1 pb-2">
+                <p class="para1">
                     Founded by father and son, Barry and Troy Clement, we’re a family owned and operated business
                     that has been cleaning and restoring rugs for over 27 years!
                 </p>
-                <p class="para2 pb-2">
+                <p class="para2">
                     Since the day we started in the rug cleaning industry, we have aimed to offer something very
                     different to the standard rug clean that the vast majority of carpet cleaners carry out in
                     the
                     home.
                 </p>
-                <p class="para3 pb-2">
+                <p class="para3">
                     And this is why we’ve never merely offered rug cleaning as an ‘add-on service.’ Instead, we
                     chose to specialise in the art and science of rug cleaning from the very first day we opened
                     our
                     doors!
                 </p>
-                <p class="para4 pb-2">
+                <p class="para4">
                     This has meant investing in the best equipment in the industry in order to offer the most
-                    thorough and effective rug cleaning available in the UK today. We’ve travelled all over the
-                    world to learn from master rug cleaners and have developed our own unique processes and
-                    methods
-                    for cleaning everything from cheaper high street rugs to fine Persian heirlooms.
+                    thorough and effective rug cleaning available in the UK today.
                 </p>
-                <p class="para2">
+                <p style="font: normal normal bold 16px/27px Lato;">
                     We hope to be of service to you soon.</p>
-                <p class="text-success para2">TROY & BARRY CLEMENT</p>
+                <p style="color: #45A164;font: normal normal bold 16px/27px Lato;">TROY & BARRY CLEMENT</p>
 
-                <div class="p-3">
-                    <span class="badge rounded-pill text-wrap call" style="background: #107ac7;"><i class="fa fa-phone"
-                            style="font-size:18px;padding: 6px;"></i> Call For a Quote Now on 01269 842497
+                <div style="padding:48px 0 72px 0">
+                    <span class="badge rounded-pill text-wrap call" style="background: #138BEF;padding: 13px 24px;"><i
+                            class="fa fa-phone" style="font-size:18px;padding: 6px;"></i> Call For a Quote Now on 01269
+                        842497
                     </span>
                 </div>
             </div>
-            <div class="col text-center">
+            <div class="col text-center green-circle-div" style="padding-top:32px">
                 <div id="green-circle"
                     style="background: #45A164;display: table-cell;vertical-align: middle;color: white;">
-                    <p class="circle-text pb-3">
+                    <p class="circle-p1" style="padding:50px 0 24px 0">
                         We are cleaning and restoring<br> rugs for over 27 years!
                     </p>
-                    <img class="img-thumbnail" src="assets/images/img-7.png" alt="image7" height="60%" width="60%">
-                    <p class="circle-text1 p-3">
+                    <img class="img-thumbnail" src="assets/images/img-7.png" alt="image7" height="248px" width="368px">
+                    <p class="circle-p2" style="padding-top:24px">
                         Founded by father and son, Barry and Troy Clement,<br> we’re a family owned and
                         operated
                         business.
                     </p>
-                    <p class="circle-text2"><a href="#" class="text-reset">Read Our Story</a></p>
+                    <p class="circle-p3" style="padding:15px 0 30px 0"><a href="#" class="text-reset">Read Our Story</a>
+                    </p>
                 </div>
-                <div class="m-2 text-center">
+                <div class="text-center" style="padding:40px">
                     <img src="assets/images/Image 14.png" alt="image14">
                     <img src="assets/images/Image 17.png" alt="image17">
                     <img src="assets/images/Image 18.png" alt="image18">
@@ -230,163 +230,123 @@
 
     <section class="overflow-hidden text-white" style="background: #0E6BAD;">
         <div class="text-center">
-            <i class="fa fa-quote-left" style="font-size: 42px;padding: 30px;"></i>
-            <h2 class="welcome pb-4">What People Say</h2>
+            <i class="fa fa-quote-left" style="font-size: 42px;padding: 40px 0 20px 0;"></i>
+            <h2 class="welcome" style="padding-bottom: 47px;">What People Say</h2>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner mb-5">
-                <div class="carousel-item active">
-                    <div class="row row-cols-1 row-cols-md-3 text-center">
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text"> You did everything you said you would and gave great
-                                    advice before I
-                                    decided to use your company. You have a great team. Sarah is wonderful and
-                                    so
-                                    helpful.
-                                    It’s
-                                    so lovely to have such a great specialist company locally. Many thanks.
-                                </p>
-                                <div class="card-footer-name">
-                                    <h6 class="name">Mrs Gurney</h6>
-                                    <p>Newcastle Emlyn</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">I liked the ease of contact and friendliness of all
-                                    staff. I am
-                                    absolutely
-                                    delighted with my rug. I had no idea how good a condition it was in.
-                                    Amazing!!! Will
-                                    definitely
-                                    be using you again next year.
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">Job done to perfection! Customer service exceptional!
-                                    Best company
-                                    in the
-                                    UK! I will recommend your services to everyone!
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
+
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> You did everything you said you would and gave great
+                            advice before I
+                            decided to use your company. You have a great team. Sarah is wonderful and
+                            so
+                            helpful.
+                            It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Gurney</h6>
+                            <p>Newcastle Emlyn</p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row row-cols-1 row-cols-md-3 text-center">
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">You did everything you said you would and gave great
-                                    advice before I
-                                    decided to use your company. You have a great team. Sarah is wonderful and
-                                    so
-                                    helpful.
-                                    It’s
-                                    so lovely to have such a great specialist company locally. Many thanks.
-                                </p>
-                                <div class="card-footer-name">
-                                    <h6 class="name">Mrs Gurney</h6>
-                                    <p>Newcastle Emlyn</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">I liked the ease of contact and friendliness of all
-                                    staff. I am
-                                    absolutely
-                                    delighted with my rug. I had no idea how good a condition it was in.
-                                    Amazing!!! Will
-                                    definitely
-                                    be using you again next year.
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">Job done to perfection! Customer service exceptional!
-                                    Best company
-                                    in the
-                                    UK! I will recommend your services to everyone!
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
+            </div>
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> You did everything you said you would and gave great
+                            advice before I
+                            decided to use your company. You have a great team. Sarah is wonderful and
+                            so
+                            helpful.
+                            It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Gurney</h6>
+                            <p>Newcastle Emlyn</p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row row-cols-1 row-cols-md-3 text-center">
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">You did everything you said you would and gave great
-                                    advice before I
-                                    decided to use your company. You have a great team. Sarah is wonderful and
-                                    so
-                                    helpful.
-                                    It’s
-                                    so lovely to have such a great specialist company locally. Many thanks.
-                                </p>
-                                <div class="card-footer-name">
-                                    <h6 class="name">Mrs Gurney</h6>
-                                    <p>Newcastle Emlyn</p>
-                                </div>
-                            </div>
+            </div>
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> You did everything you said you would and gave great
+                            advice before I
+                            decided to use your company. You have a great team. Sarah is wonderful and
+                            so
+                            helpful.
+                            It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Gurney</h6>
+                            <p>Newcastle Emlyn</p>
                         </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">I liked the ease of contact and friendliness of all
-                                    staff. I am
-                                    absolutely
-                                    delighted with my rug. I had no idea how good a condition it was in.
-                                    Amazing!!! Will
-                                    definitely
-                                    be using you again next year.
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> You did everything you said you would and gave great
+                            advice before I
+                            decided to use your company. You have a great team. Sarah is wonderful and
+                            so
+                            helpful.
+                            It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Gurney</h6>
+                            <p>Newcastle Emlyn</p>
                         </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">Job done to perfection! Customer service exceptional!
-                                    Best company
-                                    in the
-                                    UK! I will recommend your services to everyone!
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> You did everything you said you would and gave great
+                            advice before I
+                            decided to use your company. You have a great team. Sarah is wonderful and
+                            so
+                            helpful.
+                            It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Gurney</h6>
+                            <p>Newcastle Emlyn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> You did everything you said you would and gave great
+                            advice before I
+                            decided to use your company. You have a great team. Sarah is wonderful and
+                            so
+                            helpful.
+                            It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Gurney</h6>
+                            <p>Newcastle Emlyn</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="text-center bg-light">
-        <div class="p-5">
+    <section class="text-center bg-color">
+        <div style="padding:76px 0 44px 0;">
             <h4 class="welcome" style="color: #0E6BAD;">Our Popular Cleaning Packages</h4>
         </div>
         <div class="d-flex justify-content-center align-items-center">
@@ -394,8 +354,8 @@
                 <div class="card small-card pb-sm-3">
                     <div class="card-body">
                         <img src="assets/images/room.svg" alt="room" height="56px" width="88px">
-                        <p class="card-title mt-4">The Living Room Package</p>
-                        <p class="card-title1">Take care of the key area of your home with this popular
+                        <p class="card-title">The Living Room Package</p>
+                        <p class="card-para">Take care of the key area of your home with this popular
                             package.</p>
                     </div>
                     <div class="text-center">
@@ -405,8 +365,8 @@
                 <div class="card small-card pb-sm-3">
                     <div class="card-body">
                         <img src="assets/images/baby.svg" alt="baby" height="56px" width="88px">
-                        <p class="card-title mt-4">Welcome New Baby Home</p>
-                        <p class="card-title1">Welcome your new arrival into a cleaner, safer home.
+                        <p class="card-title">Welcome New Baby Home</p>
+                        <p class="card-para">Welcome your new arrival into a cleaner, safer home.
                         </p>
                     </div>
                     <div class="text-center">
@@ -416,8 +376,8 @@
                 <div class="card small-card pb-sm-3">
                     <div class="card-body">
                         <img src="assets/images/care.svg" alt="care" height="56px" width="88px">
-                        <p class="card-title mt-4">Moving Home Package</p>
-                        <p class="card-title1">Get the best price for your house with cleaner, fresher
+                        <p class="card-title">Moving Home Package</p>
+                        <p class="card-para">Get the best price for your house with cleaner, fresher
                             carpets.</p>
                     </div>
                     <div class="text-center">
@@ -427,8 +387,8 @@
                 <div class="card small-card pb-sm-3">
                     <div class="card-body">
                         <img src="assets/images/home.svg" alt="home" height="56px" width="88px">
-                        <p class="card-title mt-4">The Perfect Care Plan</p>
-                        <p class="card-title1">Spread the cost and let us take away the hassle…</p>
+                        <p class="card-title">The Perfect Care Plan</p>
+                        <p class="card-para">Spread the cost and let us take away the hassle…</p>
                     </div>
                     <div class="text-center">
                         <span class="badge rounded-pill p-2 view-pkg">View Package</span>
@@ -436,19 +396,19 @@
                 </div>
             </div>
         </div>
-        <div class="p-5">
-            <span class="badge rounded-pill call text-wrap" style="background: #048630;"><i class="fa fa-phone"
-                    style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269 842497
+        <div style="padding:72px">
+            <span class="badge rounded-pill call text-wrap" style="background: #048630;padding:13px 24px"><i
+                    class="fa fa-phone" style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269 842497
             </span>
         </div>
     </section>
-    <section class="text-center text-white pt-5" style="background: #45A164;">
+    <section class="text-center text-white" style="background: #45A164;">
         <div class="container-lg">
-            <h3 class="welcome">Our Promise To You</h3>
-            <div class="row row-cols-1 row-cols-md-3 pt-5">
+            <h3 class="welcome" style="padding: 72px 0 52px 0;">Our Promise To You</h3>
+            <div class="row row-cols-1 row-cols-md-3">
                 <div class="col">
                     <img src="assets/images/Layer 3.svg" alt="layer" class="svg-images">
-                    <div class="p-2 our-promise">
+                    <div class="our-promise">
                         <h6>Minimum Disruption</h6>
                         <p> Hassle free, quick, efficient cleaning. Most carpets are dry in 1-2 hours, so your
                             rooms
@@ -458,7 +418,7 @@
                 </div>
                 <div class="col">
                     <img src="assets/images/Group 13.svg" alt="group13" class="svg-images">
-                    <div class="p-2 our-promise">
+                    <div class="our-promise">
                         <h6>Great Value</h6>
                         <p>We’re definitely not the cheapest cleaners in Rotherham, but our clients tell us every
                             day
@@ -469,7 +429,7 @@
                 </div>
                 <div class="col">
                     <img src="assets/images/Group 14.svg" alt="group14" class="svg-images">
-                    <div class="p-2 our-promise">
+                    <div class="our-promise">
                         <h6>Money Back Guarantee</h6>
                         <p>ALL our work is backed by our 100% NO QUIBBLE Guarantee. If you’re genuinely not
                             delighted
@@ -481,7 +441,7 @@
             <div class="row row-cols-1 row-cols-md-3 p-4">
                 <div class="col">
                     <img src="assets/images/Path 13.svg" alt="path13" class="svg-images">
-                    <div class="p-2 our-promise">
+                    <div class="our-promise">
                         <h6>Fully DBS Checked Team</h6>
                         <p>We work in ‘sensitive’ environments such as HM Prisons, Banks and other ‘secure’
                             organisations where full DBS and other vetting is compulsory. This gives you Peace of
@@ -491,7 +451,7 @@
                 </div>
                 <div class="col">
                     <img src="assets/images/Path 14.svg" alt="path14" class="svg-images">
-                    <div class="p-2 our-promise">
+                    <div class="our-promise">
                         <h6>Friendly Personal Service</h6>
                         <p>We're all local people, we live in the local communities. There's no high pressure
                             sales,
@@ -501,7 +461,7 @@
                 </div>
                 <div class="col">
                     <img src="assets/images/Path 15.svg" alt="path15" class="svg-images">
-                    <div class="p-2 our-promise">
+                    <div class="our-promise">
                         <h6>We Move Furniture</h6>
                         <p>All we ask is you move breakables from any items you want us to move. Items such as
                             the
@@ -511,42 +471,42 @@
                     </div>
                 </div>
             </div>
-            <div class="p-3">
-                <span class="badge rounded-pill bg-white text-wrap call" style="color: #107AC7;"><i class="fa fa-phone"
-                        style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269
+            <div style="padding: 60px 0 46px 0;">
+                <span class="badge rounded-pill bg-white text-wrap call" style="color: #107AC7;padding: 13px 24px;"><i
+                        class="fa fa-phone" style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269
                     842497
                 </span>
             </div>
         </div>
     </section>
-    <section class="container-lg d-flex justify-content-center pb-5">
+    <section class="container-lg d-flex justify-content-center">
         <div class="row row-cols-1 row-cols-md-2">
             <div class="col bg-white">
-                <h6 class="text-success circle-text pt-5 pb-5">Latest News</h6>
-                <div class="d-flex p-2">
-                    <img src="assets/images/img-1.png" alt="image14" height="132px" width="176px">
-                    <div class="latest-news p-2">
+                <h6 class="text-success latest-news-heading">Latest News</h6>
+                <div class="d-flex justify-content-md-center align-items-md-center main">
+                    <img src="assets/images/img-1.png" alt="image14">
+                    <div class="latest-news text-wrap">
                         <p style="color: #0E6BAD">15 April 2021</p>
                         <h6>Rug Moth & Bug Damage – What To Look Out For</h6>
                     </div>
                 </div>
-                <div class="d-flex p-2">
-                    <img src="assets/images/img-2.png" alt="image14" height="132px" width="176px">
-                    <div class="latest-news p-2">
+                <div class="d-flex justify-content-md-center align-items-md-center main">
+                    <img src="assets/images/img-2.png" alt="image14">
+                    <div class="latest-news text-wrap">
                         <p style="color: #0E6BAD">25 January 2021</p>
                         <h6>How Much Does Professional Rug Cleaning Cost?</h6>
                     </div>
                 </div>
-                <div class="d-flex p-2">
-                    <img src="assets/images/img-3.png" alt="image14" height="132px" width="176px">
-                    <div class="latest-news p-2">
+                <div class="d-flex justify-content-md-center align-items-md-center main">
+                    <img src="assets/images/img-3.png" alt="image14">
+                    <div class="latest-news text-wrap">
                         <p style="color: #0E6BAD">5 April 2021</p>
                         <h6>We’re Back & Ready To Clean Your Rugs!</h6>
                     </div>
                 </div>
             </div>
-            <div class="col bg-light">
-                <h6 class="text-success circle-text pt-5 pb-5">Like our Facebook to receive the latest offers!</h6>
+            <div class="col bg-color like-facebook">
+                <h6 class="text-success latest-news-heading">Like our Facebook to receive the latest offers!</h6>
                 <div class="position-relative">
                     <img src="assets/images/img-3.png" alt="rugs" height="132px" width="100%">
                     <div class="position-absolute top-0 text-white m-2 d-flex p-2">
@@ -557,7 +517,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white" style="height: 367px;width:auto">
+                <div class="bg-white" style="height: 367px;width:100%">
                     <div class="d-flex p-3">
                         <img src="assets/images/hestabit.jpg" alt="hestabit-logo" height="50px" width="50px">
                         <div class="p-2" style="color: black;">
@@ -570,24 +530,25 @@
             </div>
         </div>
     </section>
-    <div class="d-flex align-items-center justify-content-evenly badges">
-        <span class="badge rounded-pill bg-primary text-white text-wrap top-bagde d-none d-xl-block"><i
-                class="fa fa-star" style="font-size:14px;padding: 6px;"></i>Read our Customer Reviews
+    <div class="d-flex align-items-center justify-content-center badges">
+        <span class="badge rounded-pill text-white text-wrap top-bagde d-none d-xl-block"
+            style="background:#138BEF;margin-right: 62px;"><i class="fa fa-star"
+                style="font-size:14px;padding: 6px;"></i>Read our Customer Reviews
         </span>
         <div class="d-none d-sm-block">
-            <span class="badge rounded-pill colr text-white text-wrap top-bagde mx-md-5"><i class="fa fa-pencil"
+            <span class="badge rounded-pill colr text-white text-wrap top-bagde bottom-badges"><i class="fa fa-pencil"
                     style="font-size:16px;padding: 6px;"></i>Free Quote
             </span>
-            <span class="badge rounded-pill colr text-white text-wrap call ms-md-5"><i class="fa fa-phone"
+            <span class="badge rounded-pill colr text-white text-wrap call bottom-badges"><i class="fa fa-phone"
                     style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269
                 842497
             </span>
         </div>
 
         <div class="d-none d-xl-block">
-            <a href="#" class="nav-link fa fa-facebook"></a>
-            <a class="nav-link fa fa-youtube" href="#"></a>
-            <a class="nav-link fa fa-instagram" href="#"></a>
+            <a href="#" class="nav-link fa fa-facebook" style="margin-right: 24px;"></a>
+            <a class="nav-link fa fa-youtube" href="#" style="margin-right: 16px;"></a>
+            <a class="nav-link fa fa-instagram" href="#" style="margin-right: 16px;"></a>
         </div>
     </div>
     <section class="bg-dark text-white">
@@ -637,10 +598,24 @@
     </section>
 
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
         </script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $("#owl-demo").owlCarousel({
+            navigation : true
+        });
+    </script>
 
 </body>
 
