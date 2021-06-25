@@ -14,10 +14,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
+    <!-- for carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link href="styles1.css" rel="stylesheet">
 
 <body>
-    <div class="container align-items-center">
+    <!-- <div class="container align-items-center">
         <nav class="navbar">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid me-md-5 ms-md-5" src="assets/images/logo.jpeg" alt="logo" height="50px"
@@ -66,7 +74,47 @@
                 </div>
             </ul>
         </nav>
+    </div> -->
+    <div class="container">
+        <div class="d-flex justify-content-md-center align-items-md-center" style="padding: 16px">
+            <div>
+                <img src="assets/images/logo.jpeg" alt="logo" height="56px" width="256px" />
+            </div>
+            <div style="margin-left: auto;padding: 16px;">
+                <a href="#" class="fa fa-phone nav-link d-block d-sm-none"></a>
+                <a class="d-none d-sm-block d-md-none" href="#">
+                    <span class="badge rounded-pill top-bagde" style="background: #048630;"><i class="fa fa-pencil"
+                            style="font-size:14px;padding: 6px"></i>Free Quote</span> </a>
+            </div>
+
+            <div class="d-none d-md-flex">
+                <span class="badge rounded-pill top-bagde bg-primary-color" style="margin-left: 96px;">
+                    <i class="fa fa-star" style="font-size:14px;padding: 6px"></i>
+                    Read Our Customer Reviews
+                </span>
+                <span class="badge rounded-pill top-bagde" style="margin-left: 24px;background: #048630;"><i
+                        class="fa fa-pencil" style="font-size:14px;padding: 6px;"></i>Free Quote</span> </a>
+                <a href="#" class="fa fa-facebook nav-link" style="margin-left: 24px;"></a>
+                <a class="nav-link fa fa-youtube" href="#" style="margin-left: 16px;"></a>
+                <a class="nav-link fa fa-instagram" href="#" style="margin-left: 16px;"></a>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center d-none d-md-flex" style="margin-left: 32px;">
+                <div>
+                    <span style="color: #048630;">
+                        <small class="profile-text">
+                            Call us any time to get a free quote
+                        </small>
+                    </span>
+                    <h3 class="profile-phone">01269 842497</h3>
+                </div>
+                <div style="margin-left: 16px;">
+                    <img src="assets/images/Profile.png" alt="profile" height="48px" width="48px">
+                </div>
+            </div>
+        </div>
     </div>
+
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-nav">
         <div class="container" id="toggle-btn">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -89,51 +137,53 @@
                         <a class="nav-link" href="#">Areas</a>
                     </li>
                     <li class="nav-item me-5 ms-3">
-                        <a href="" class="nav-link">Rugs</a>
+                        <a href="#" class="nav-link">Rugs</a>
                     </li>
                     <li class="nav-item me-5 ms-3">
-                        <a href="" class="nav-link">Blogs</a>
+                        <a href="#" class="nav-link">Blogs</a>
                     </li>
                     <li class="nav-item me-5 ms-3">
-                        <a href="" class="nav-link">Contacts</a>
+                        <a href="#" class="nav-link">Contacts</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div>
-        <img src="assets/images/img-1.png" alt="Rugs" width="100%" height="400px">
-    </div>
-    <div class="position-relative">
-        <div class="card text-center position-absolute top-0 start-50 translate-middle top-card">
-            <div class="card-body">
-                <h4 class="welcome pb-2">What type of Rug do you need Cleaning?</h4>
-                <p class="card-para">Choose the type of rug you have to see how we pamper and revive your rug in
-                    our<br>
-                    dedicated,<span class="text-primary"> 11 step</span> rug cleaning spa…</p>
+    <section class="bg-light-color">
+        <div class="position-relative">
+            <img src="assets/images/banner-3.jpg" alt="Rugs" width="100%" height="400px">
+            <div class="card text-center position-absolute top-100 start-50 translate-middle top-card">
+                <div class="card-body">
+                    <h1 class="welcome">What type of Rug do you need Cleaning?</h1>
+                    <p class="card-para">Choose the type of rug you have to see how we pamper and revive your rug in
+                        our
+                        dedicated,<span class="text-primary"> 11 step</span> rug cleaning spa…</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="pb-5 bg-light">
-        <div class="p-5 d-md-flex justify-content-evenly text-sm-center" style="margin-top: 100px;">
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Modern Contemporary Rugs</span>
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Oriental & Middle Eastern
+        <div class="d-md-flex justify-content-center text-center firstrow-badges">
+            <span class="badge rounded-pill bg-primary-color text-wrap badge-text">Modern Contemporary
                 Rugs</span>
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Silk & Other Fine Fibre Rugs</span>
+            <span class="badge rounded-pill bg-primary-color text-wrap badge-text">Oriental & Middle Eastern
+                Rugs</span>
+            <span class="badge rounded-pill bg-primary-color text-wrap badge-text">Silk & Other Fine Fibre
+                Rugs</span>
         </div>
-        <div class="px-5 d-md-flex justify-content-evenly text-sm-center">
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Not Sure What Type?</span>
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">Guaranteed Odour Removal</span>
-            <span class="badge rounded-pill bg-primary text-wrap badge-text m-sm-3">See Our 11 Step Rug Spa
+        <div class="d-md-flex justify-content-center text-center secondrow-badges">
+            <span class="badge rounded-pill bg-primary-color text-wrap badge-text">Not Sure What Type?</span>
+            <span class="badge rounded-pill bg-primary-color text-wrap badge-text">Guaranteed Odour
+                Removal</span>
+            <span class="badge rounded-pill bg-primary-color text-wrap badge-text">See Our 11 Step Rug Spa
                 Process*</span>
         </div>
-    </div>
-    <section class="bg-white container pt-3">
+    </section>
+
+    <section class="container-lg bg-white text-center">
         <div class="row row-cols-1 row-cols-md-2">
-            <div class="col text-center">
-                <h3 class="welcome pb-4">
+            <div class="col welcome-rug-laundry">
+                <h1 class="welcome">
                     Why Choose Us?
-                </h3>
+                </h1>
                 <p class="para1">
                     Founded by father and son, Barry and Troy Clement, we’re a family owned and operated business
                     that has been cleaning and restoring rugs for over 27 years!
@@ -152,37 +202,35 @@
                 </p>
                 <p class="para4">
                     This has meant investing in the best equipment in the industry in order to offer the most
-                    thorough and effective rug cleaning available in the UK today. We’ve travelled all over the
-                    world to learn from master rug cleaners and have developed our own unique processes and
-                    methods
-                    for cleaning everything from cheaper high street rugs to fine Persian heirlooms.
+                    thorough and effective rug cleaning available in the UK today.
                 </p>
-                <p class="para2 pt-3">
+                <p style="font: normal normal bold 16px/27px Lato;">
                     We hope to be of service to you soon.</p>
-                <p class="text-success para2">TROY & BARRY CLEMENT</p>
+                <p style="color: #45A164;font: normal normal bold 16px/27px Lato;">TROY & BARRY CLEMENT</p>
 
-                <div class="p-5">
-                    <span class="badge rounded-pill text-wrap call" style="background: #107ac7;"><i class="fa fa-phone"
-                            style="font-size:14px;padding: 6px;"></i> Call For a Quote Now on 01269 842497
+                <div style="padding:48px 0 72px 0">
+                    <span class="badge rounded-pill text-wrap call bg-primary-color" style="padding: 13px 24px;"><i
+                            class="fa fa-phone" style="font-size:18px;padding: 6px;"></i> Call For a Quote Now on 01269
+                        842497
                     </span>
                 </div>
             </div>
-            <div class="col text-center">
-
+            <div class="col green-circle-div" style="padding-top:32px">
                 <div id="green-circle"
                     style="background: #45A164;display: table-cell;vertical-align: middle;color: white;">
-                    <p class="circle-text pb-3">
+                    <p class="circle-p1" style="padding:50px 0 24px 0">
                         We are cleaning and restoring<br> rugs for over 27 years!
                     </p>
-                    <img class="img-thumbnail" src="assets/images/img-7.png" alt="image7" height="60%" width="60%">
-                    <p class="circle-text1 p-3">
+                    <img class="img-thumbnail" src="assets/images/img-7.png" alt="image7" height="248px" width="368px">
+                    <p class="circle-p2" style="padding-top:24px">
                         Founded by father and son, Barry and Troy Clement,<br> we’re a family owned and
                         operated
                         business.
                     </p>
-                    <p class="circle-text2 pt-4"><a href="#" class="text-reset">Read Our Story</a></p>
+                    <p class="circle-p3" style="padding:15px 0 30px 0"><a href="#" class="text-reset">Read Our Story</a>
+                    </p>
                 </div>
-                <div class="m-2 text-center">
+                <div class="text-center" style="padding:40px">
                     <img src="assets/images/Image 14.png" alt="image14">
                     <img src="assets/images/Image 17.png" alt="image17">
                     <img src="assets/images/Image 18.png" alt="image18">
@@ -191,73 +239,73 @@
             </div>
         </div>
     </section>
-    <section class="text-white text-center pt-5" style="background: #45A164;">
-        <div class="container">
-            <h4 class="welcome pb-3">The UK’s Premier rug cleaners</h4>
-            <p class="uk-premier-para pb-3">At The Rug Laundry we are specialists in tailoring the best rug
+    <section class="text-white text-center" style="background: #45A164;">
+        <div class="container uk-premier-heading">
+            <h1 class="welcome">The UK’s Premier rug cleaners</h1>
+            <p class="uk-premier-para">At The Rug Laundry we are specialists in tailoring the best rug
                 cleaning process to the
                 specific fibre, texture, and area of the world your rug<br> comes from. We know how to clean area
                 rugs, it does not matter if it is Oriental, Persian, or Asian.</p>
 
-            <div class="row row-cols-1 row-cols-md-4 p-md-5">
-                <div class="col pb-3">
-                    <img src="assets/images/Group 14.svg" alt="group14">
-                    <div class="pt-2 uk-premier">
-                        <h6>Rug Cleaning Services</h6>
+            <div class="row row-cols-1 row-cols-md-4">
+                <div class="col">
+                    <img src="assets/images/Rug-Cleaning-Services.png" alt="services" class="uk-premier-img">
+                    <div class="uk-premier">
+                        <h6 style="padding-top: 23px;">Rug Cleaning Services</h6>
                         <p>We tailor the best rug cleaning process to the specific fibre, texture, and area of
                             the
                             world your rug comes from</p>
                     </div>
                 </div>
-                <div class="col pb-3">
-                    <img src="assets/images/Layer 3.svg" alt="layer">
-                    <div class="pt-2 uk-premier">
-                        <h6>Rug Dyeing Restoration</h6>
+                <div class="col">
+                    <img src="assets/images/Rug-Dyeing-Restoration.png" alt="restoration" class="uk-premier-img">
+                    <div class="uk-premier">
+                        <h6 style="padding-top: 17px">Rug Dyeing Restoration</h6>
                         <p> As one of the only rug dyeing specialists in the world, we’re able to remove bleeding
                             dyes, restore colour & fix bleach spills</p>
                     </div>
                 </div>
-                <div class="col pb-3">
-                    <img src="assets/images/Group 13.svg" alt="group13">
-                    <div class="pt-2 uk-premier">
-                        <h6>Rug Repair Services</h6>
+                <div class="col">
+                    <img src="assets/images/Rug-Repair-Services.png" alt="repair-service" class="uk-premier-img">
+                    <div class="uk-premier">
+                        <h6 style="padding-top: 18px">Rug Repair Services</h6>
                         <p>We’re specialists in sewing and patching holes, fixing fringes, and grooming your
                             rug’s
                             pile to reset fibres
                         </p>
                     </div>
                 </div>
-                <div class="col pb-3">
-                    <img src="assets/images/Group 14.svg" alt="group14">
-                    <div class="pt-2 uk-premier">
-                        <h6>Certified by the Best in the World</h6>
+                <div class="col">
+                    <img src="assets/images/Certified.png" alt="certified" class="uk-premier-img">
+                    <div class="uk-premier">
+                        <h6 style="padding-top: 23px">Certified by the Best in the World</h6>
                         <p>With over 20 years of rug cleaning and carpet cleaning experience, we have been
                             certified
                             by experts all around the world</p>
                     </div>
                 </div>
             </div>
-            <div class="p-3">
-            <span class="badge rounded-pill text-success bg-white about-us">About Us</span>
-        </div>
+            <div>
+                <span class="badge rounded-pill text-success bg-white about-us">About Us</span>
+            </div>
         </div>
     </section>
 
-    <section class="container pt-5 bg-white">
+    <section class="container">
         <div class="text-center">
-            <h2 class="welcome pb-3">Spilled Bleach on Your Rug?</h2>
-            <p class="uk-premier-para pb-3">At Prestige Rug Spa we can tackle rug repair that most rug cleaning
+            <h2 class="welcome spilled-heading">Spilled Bleach on Your Rug?</h2>
+            <p class="uk-premier-para spilled-para">At Prestige Rug Spa we can tackle rug repair that most rug cleaning
                 businesses cannot handle.
                 These services include bleach spill repair, nearly impossible stains, and sun bleaching. These
                 issues are colouring issues and can be remedied by dye stripping and rug dyeing, processes that
                 Prestige Rug Spa’s specialists were trained in by the world leader of colour restoration
                 services. Learn more about how we repair these issues on our rug dyeing page here:</p>
-            <img src="assets/images/img-1.png" alt="img-1" width="60%" height="60%">
+            <img src="assets/images/600-x-576.jpeg" alt="600*576" class="spilled-img">
         </div>
-        <div class="row row-cols-1 row-cols-md-2 pt-4">
-            <div class="col">
-                <h4 class="text-primary welcome pb-3">Cleaning Proceedure</h4>
-                <p class="uk-premier-para pb-3">At Prestige we offer a wide variety of services to ensure that we can
+        <div class="row row-cols-1 row-cols-md-2 spilled-sub">
+            <div class="col" id="vertical-hr">
+                <h4 class="welcome" style="color: #107AC7;">Cleaning Proceedure</h4>
+                <p class="uk-premier-para">At Prestige we offer a wide variety of services to ensure that we can
                     aide you no matter
                     what problem befalls your rug. If we do not have a service that meets your needs here give
                     us a call. It may just not be on the website.</p>
@@ -271,8 +319,8 @@
                 </ul>
             </div>
             <div class="col">
-                <h4 class="text-success welcome pb-3">Quality Assurance</h4>
-                <p class="uk-premier-para pb-3">We record a full inspection of your rug, including pictures, to log the
+                <h4 class="welcome" style="color: #1F8742;">Quality Assurance</h4>
+                <p class="uk-premier-para">We record a full inspection of your rug, including pictures, to log the
                     condition of your
                     rug was before it came into the Rug Spa. Once completed, we do a full assessment to ensure
                     that fine details are taken care of. This is the quality you can expect.</p>
@@ -289,13 +337,16 @@
         </div>
     </section>
 
-    <section class="pt-4 bg-light">
+    <section class="bg-light-color">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2">
+            <div class="row row-cols-1 row-cols-md-2 water-damage">
                 <div class="col">
-                    <h4 class="welcome pb-3"><span class="text-decoration-underline">Water</span> Damage?</h4>
-                    <p class="text-success rug-block pb-2">Rug Blocking and Reshaping Process</p>
-                    <p class="uk-premier-para pb-2">If you have ever had a rug exposed to flooding you may have a variety of
+                    <h4 class="welcome">Water Damage?</h4>
+                    <hr class="water-damage-hr">
+                    <p class="rug-block" style="color: #1F8742;">Rug Blocking and Reshaping Process</p>
+                    <p class="uk-premier-para water-damage-para">If you have ever had a rug exposed to flooding you may
+                        have a
+                        variety of
                         problems. In
                         addition to treating your rug for mould and bacteria and stripping bled dyes, we can also
                         reshape the rug into its original position. We do this by stretching your rug back to its
@@ -304,142 +355,164 @@
                         below.</p>
                 </div>
                 <div class="col">
-                    <img src="assets/images/img-4.png" alt="img-4" width="100%" height="90%">
+                    <iframe width="585" height="329" src="https://www.youtube.com/embed/Y7OoURcq6n8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-2">
+            <div class="row row-cols-1 row-cols-md-2 extraction-process">
                 <div class="col">
-                    <img src="assets/images/img-4.png" alt="img-4" width="100%" height="90%">
+                    <iframe width="585" height="329" src="https://www.youtube.com/embed/f4KYpxbRZdE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
                 </div>
                 <div class="col">
-                    <h4 class="welcome pb-3"><span class="text-decoration-underline">See Our</span> Extraction Process
+                    <h4 class="welcome">See Our Extraction Process
                     </h4>
-                    <p class="text-success rug-block pb-2">The Cleaning Process in Action</p>
+                    <hr class="water-damage-hr">
+                    <p class="rug-block" style="color: #1F8742;">The Cleaning Process in Action</p>
                     <p class="uk-premier-para">This video shows how moisture is completely removed from your rug. The
                         process is similar
                         to the spin cycles on your washing machine – the rug spins at high speeds to extract all
                         moisture. With this process we can completely remove ingress water, pet urine, or any other
-                        liquids that may be in your rug. If you have pets or young children you may wish to get your
+                        liquids that may be in your rug.
+                    </p>
+                    <p class="uk-premier-para">
+                        If you have pets or young children you may wish to get your
                         rug stain guarded. Learn more here.
                     </p>
                 </div>
             </div>
-            <div class="pt-3 pb-3">
-                <h4 class="text-center welcome p-4">Rug Cleaning Packages</h4>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-header text-center bg-primary text-white">
-                                <h4 class="welcome pb-3">Economy</h4>
-                                <p class="panel-para">Recommended for:<br> Synthetic Modern Contemporary Rugs.</p>
+            <h4 class="text-center welcome rug-cleaning-package">Rug Cleaning Packages</h4>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col economy-card">
+                    <div class="card h-100">
+                        <div class="card-header text-center card-bg-color text-white">
+                            <h4 class="welcome economy-heading">Economy</h4>
+                            <p class="panel-para">Recommended for:<br> Synthetic Modern Contemporary Rugs.</p>
+                        </div>
+                        <div class="bg-green">
+                            <p style="color: #FFFFFF;padding: 10px 30px;font-size: 14px;"><span><i
+                                        class="fa fa-check p-2" style="color: white;"></i></span>11 Step Machine
+                                Cleaning
+                                Only</p>
+                        </div>
+                        <div class="card-body packages">
+                            <p><span><i class="fa fa-check p-2"></i></span> Pre-wash inspection</p>
+                            <p><span><i class="fa fa-check p-2"></i></span> Insured up to £200***</p>
+                            <div class="text-mute">
+                                <p> Fringe Cleaned & Detailed by
+                                    hand</p>
+                                <p> Stain & Soil Protector
+                                    Applied</p>
+                                <p> 6 Month Spot and Spill Warranty***</p>
+                                <p>500ml Bottle of Rug Spot Cleaner</p>
+                                <p>Pre-Wash Dye Stabiliser</p>
                             </div>
-                            <div class="bg-success p-2">
-                                <p style="color: #FFFFFF;"><span><i class="fa fa-check p-2"></i></span>11 Step Machine
-                                    Cleaning
-                                    Only</p>
-                            </div>
-                            <div class="card-body">
-                                <p><span><i class="fa fa-check p-2"></i></span> Pre-wash inspection</p>
-                                <p><span><i class="fa fa-check p-2"></i></span> Insured up to £200***</p>
-                                <div class="text-muted">
-                                    <p class="px-4"> Fringe Cleaned & Detailed by
-                                        hand</p>
-                                    <p class="px-4"> Stain & Soil Protector
-                                        Applied</p>
-                                    <p class="px-4"> 6 Month Spot and Spill Warranty***</p>
-                                    <p class="px-4">500ml Bottle of Rug Spot Cleaner</p>
-                                    <p class="px-4">Pre-Wash Dye Stabiliser</p>
-                                </div>
-                                <p class="px-4 bg-light py-2">Specialist Deodorisation of Pet Odours, Optional Extra,
-                                    Please
-                                    Ask.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <h3 class="text-primary welcome">£15.95</h3>
-                                <p class="text-muted panel-para">per square meter</p>
-                            </div>
+                            <p class="bg-light-color">Specialist Deodorisation of Pet Odours, Optional Extra,
+                                Please
+                                Ask.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <h3 class="welcome">£15.95</h3>
+                            <p>per square meter</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-header bg-primary text-white text-center">
-                                <h4 class="welcome pb-3">Premium</h4>
-                                <p class="panel-para">Recommended for:<br> Synthetic & Wool Modern Contemporary Rugs,
-                                    Machine Made
-                                    Oriental & Middle Eastern Rugs.</p>
-                            </div>
-                            <div class="bg-success text-center">
-                                <p style="color: #FFFFFF;"><span><i class="fa fa-check p-2"></i></span>Full 11 Step
-                                    Machine
-                                    Cleaning,
-                                    plus
-                                    Additional Hand Finishing, plus…</p>
-                            </div>
-                            <div class="card-body">
-                                <p><span><i class="fa fa-check p-2"></i></span> Pre-wash inspection</p>
-                                <p><span><i class="fa fa-check p-2"></i></span> Insured up to £200***</p>
-                                <p><span><i class="fa fa-check p-2"></i></span> Fringe Cleaned & Detailed by
-                                    hand</p>
-                                <p><span><i class="fa fa-check p-2"></i></span> Stain & Soil Protector
-                                    Applied</p>
-                                <div class="text-muted">
-                                    <p class="px-4"> 6 Month Spot and Spill Warranty***</p>
-                                    <p class="px-4">500ml Bottle of Rug Spot Cleaner</p>
-                                    <p class="px-4">Pre-Wash Dye Stabiliser</p>
+                </div>
+                <div class="col premium-card">
+                    <div class="card h-100">
+                        <div class="card-header card-bg-color text-white text-center">
+                            <h4 class="welcome premium-heading">Premium</h4>
+                            <p class="panel-para">Recommended for:<br> Synthetic & Wool Modern Contemporary Rugs,<br>
+                                Machine Made
+                                Oriental & Middle Eastern Rugs.</p>
+                        </div>
+                        <div class="bg-green">
+                            <div class="d-flex justify-content-center align-items-center" style="padding: 10px 30px;">
+                                <i class="fa fa-check px-3" style="color: white;"></i>
+                                <div>
+                                    <p style="color: #FFFFFF;font-size: 14px;">Full 11 Step
+                                        Machine
+                                        Cleaning,
+                                        plus
+                                        Additional Hand Finishing, plus…</p>
                                 </div>
-                                <p class="px-4 bg-light py-2">Specialist Deodorisation of Pet Odours, Optional Extra,
-                                    Please
-                                    Ask.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <h3 class="text-primary welcome">£22.95</h3>
-                                <p class="text-muted panel-para">per square meter</p>
                             </div>
                         </div>
+                        <div class="card-body packages">
+                            <p><span><i class="fa fa-check p-2"></i></span> Pre-wash inspection</p>
+                            <p><span><i class="fa fa-check p-2"></i></span> Insured up to £200***</p>
+                            <p><span><i class="fa fa-check p-2"></i></span> Fringe Cleaned & Detailed by
+                                hand</p>
+                            <p><span><i class="fa fa-check p-2"></i></span> Stain & Soil Protector
+                                Applied</p>
+                            <div class="text-mute">
+                                <p>6 Month Spot and Spill Warranty***</p>
+                                <p>500ml Bottle of Rug Spot Cleaner</p>
+                                <p>Pre-Wash Dye Stabiliser</p>
+                            </div>
+                            <p class="bg-light-color">Specialist Deodorisation of Pet Odours, Optional Extra,
+                                Please
+                                Ask.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <h3 class="welcome">£22.95</h3>
+                            <p>per square meter</p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-header bg-primary text-center text-white">
-                                <h4 class="welcome pb-3">Perfect Care</h4>
-                                <p class="panel-para">Recommended for:<br> Hand Knotted Oriental & Middle Eastern Rugs &
-                                    Fine Fibre
-                                    Rugs.</p>
+                </div>
+                <div class="col perfect-card">
+                    <div class="card h-100">
+                        <div class="card-header card-bg-color text-center text-white">
+                            <h4 class="welcome perfect-heading">Perfect Care</h4>
+                            <p class="panel-para">Recommended for:<br> Hand Knotted Oriental & Middle Eastern Rugs &
+                                Fine Fibre
+                                Rugs.</p>
+                        </div>
+                        <div class="bg-green">
+                            <div class="d-flex justify-content-center align-items-center" style="padding: 10px 30px;">
+                                <i class="fa fa-check px-3" style="color: white;"></i>
+                                <div>
+                                    <p style="color: #FFFFFF;font-size: 14px;">Full 11 Step
+                                        Machine
+                                        Cleaning,
+                                        plus
+                                        Additional Hand Finishing, plus…</p>
+                                </div>
                             </div>
-                            <div class="bg-success text-center">
-                                <p style="color: #FFFFFF;"><span><i class="fa fa-check p-2"></i></span>Full 11 Step
-                                    Machine
-                                    Cleaning,
-                                    plus
-                                    Additional Hand Finishing, plus…</p>
-                            </div>
-                            <div class="card-body">
-                                <p><span><i class="fa fa-check p-2"></i></span> Pre-wash inspection</p>
-                                <p><span><i class="fa fa-check p-2"></i></span> Insured up to £200***</p>
-                                <p><span><i class="fa fa-check p-2"></i></span> Fringe Cleaned & Detailed by
-                                    hand</p>
-                                <p><span><i class="fa fa-check p-2"></i></span> Stain & Soil Protector
-                                    Applied</p>
-                                <p><span><i class="fa fa-check p-2"></i></span> 6 Month Spot and Spill
-                                    Warranty***</p>
-                                <p><span><i class="fa fa-check p-2"></i></span>500ml Bottle of Rug Spot
-                                    Cleaner</p>
-                                <p><span><i class="fa fa-check p-2"></i></span>Pre-Wash Dye Stabiliser
-                                </p>
-                                <p class="bg-light"><span><i class="fa fa-check p-2"></i></span>Specialist Deodorisation
-                                    of Pet
-                                    Odours, Optional Extra, Please Ask.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <h3 class="text-primary welcome">£39.95</h3>
-                                <p class="text-muted panel-para">per square meter</p>
-                            </div>
+                        </div>
+                        <div class="card-body packages">
+                            <p><span><i class="fa fa-check p-2"></i></span> Pre-wash inspection</p>
+                            <p><span><i class="fa fa-check p-2"></i></span> Insured up to £200***</p>
+                            <p><span><i class="fa fa-check p-2"></i></span> Fringe Cleaned & Detailed by
+                                hand</p>
+                            <p><span><i class="fa fa-check p-2"></i></span> Stain & Soil Protector
+                                Applied</p>
+                            <p><span><i class="fa fa-check p-2"></i></span> 6 Month Spot and Spill
+                                Warranty***</p>
+                            <p><span><i class="fa fa-check p-2"></i></span>500ml Bottle of Rug Spot
+                                Cleaner</p>
+                            <p><span><i class="fa fa-check p-2"></i></span>Pre-Wash Dye Stabiliser
+                            </p>
+                            <p class="bg-light-color"><span><i class="fa fa-check p-2"></i></span>Specialist
+                                Deodorisation
+                                of Pet
+                                Odours, Optional Extra, Please Ask.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <h3 class="welcome">£39.95</h3>
+                            <p>per square meter</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="p-3"
-                style="background:lightgray;color:black;font: normal normal normal 16px/24px Lato;">
+            <div
+                style="background:lightgray;color:black;font: normal normal normal 16px/24px Lato;margin-top:75px;padding:40px 26px 26px">
                 <p>You drop off & pick up: Minimum charge of £40.00, but if you have several small rugs please call for
                     a price to have them all cleaned at once. We collect & return your rug: Individual rug prices
                     calculated as above + £14 to cover collection & delivery. Minimum charge £64.00. Please note: Larger
@@ -448,9 +521,8 @@
                     quotation for the individual rugs, and a discount for having multiple rugs collected and returned
                     together.
                 </p>
-
             </div>
-            <div class="m-4 text-center">
+            <div class="text-center" style="padding-top: 30px;padding-bottom: 60px;">
                 <span class="badge rounded-pill text-wrap img-badge" style="background: #048630;"><i class="fa fa-phone"
                         style="font-size:16px;padding: 6px;"></i>Call For a Quote Now on 01269 842497
                 </span>
@@ -458,158 +530,73 @@
         </div>
     </section>
 
-    <section class="overflow-hidden text-white" style="background: #0E6BAD;">
+    <section class="overflow-hidden text-white" style="background: #0E6BAD;padding-bottom: 64px;">
         <div class="text-center">
             <i class="fa fa-quote-left" style="font-size: 42px;padding: 30px;"></i>
             <h2 class="welcome pb-4">What People Say</h2>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
-            <div class="carousel-inner mb-5">
-                <div class="carousel-item active">
-                    <div class="row row-cols-1 row-cols-md-3 text-center">
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text"> You did everything you said you would and gave great
-                                    advice before I
-                                    decided to use your company. You have a great team. Sarah is wonderful and
-                                    so
-                                    helpful.
-                                    It’s
-                                    so lovely to have such a great specialist company locally. Many thanks.
-                                </p>
-                                <div class="card-footer-name">
-                                    <h6 class="name">Mrs Gurney</h6>
-                                    <p>Newcastle Emlyn</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">I liked the ease of contact and friendliness of all
-                                    staff. I am
-                                    absolutely
-                                    delighted with my rug. I had no idea how good a condition it was in.
-                                    Amazing!!! Will
-                                    definitely
-                                    be using you again next year.
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">Job done to perfection! Customer service exceptional!
-                                    Best company
-                                    in the
-                                    UK! I will recommend your services to everyone!
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
+        <div id="owl-demo" class="owl-carousel owl-theme owl-img-responsive">
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> You did everything you said you would and gave great
+                            advice before I
+                            decided to use your company. You have a great team. Sarah is wonderful and
+                            so
+                            helpful.
+                            It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Mcguire</h6>
+                            <p>Newcastle Emlyn</p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row row-cols-1 row-cols-md-3 text-center">
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">You did everything you said you would and gave great
-                                    advice before I
-                                    decided to use your company. You have a great team. Sarah is wonderful and
-                                    so
-                                    helpful.
-                                    It’s
-                                    so lovely to have such a great specialist company locally. Many thanks.
-                                </p>
-                                <div class="card-footer-name">
-                                    <h6 class="name">Mrs Gurney</h6>
-                                    <p>Newcastle Emlyn</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">I liked the ease of contact and friendliness of all
-                                    staff. I am
-                                    absolutely
-                                    delighted with my rug. I had no idea how good a condition it was in.
-                                    Amazing!!! Will
-                                    definitely
-                                    be using you again next year.
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">Job done to perfection! Customer service exceptional!
-                                    Best company
-                                    in the
-                                    UK! I will recommend your services to everyone!
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
+            </div>
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> I liked the ease of contact and friendliness of all staff. I am absolutely
+                            delighted with my rug. I had no idea how good a condition it was in. Amazing!!! Will
+                            definitely be using you again next year.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Mcguire</h6>
+                            <p>Tonypandy</p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row row-cols-1 row-cols-md-3 text-center">
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">You did everything you said you would and gave great
-                                    advice before I
-                                    decided to use your company. You have a great team. Sarah is wonderful and
-                                    so
-                                    helpful.
-                                    It’s
-                                    so lovely to have such a great specialist company locally. Many thanks.
-                                </p>
-                                <div class="card-footer-name">
-                                    <h6 class="name">Mrs Gurney</h6>
-                                    <p>Newcastle Emlyn</p>
-                                </div>
-                            </div>
+            </div>
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> You did everything you said you would and gave great
+                            advice before I
+                            decided to use your company. You have a great team. Sarah is wonderful and
+                            so
+                            helpful.
+                            It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Mcguire</h6>
+                            <p>Newcastle Emlyn</p>
                         </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">I liked the ease of contact and friendliness of all
-                                    staff. I am
-                                    absolutely
-                                    delighted with my rug. I had no idea how good a condition it was in.
-                                    Amazing!!! Will
-                                    definitely
-                                    be using you again next year.
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
-                        </div>
-                        <div class="col card card-carousel">
-                            <div class="card-body">
-                                <p class="card-text">Job done to perfection! Customer service exceptional!
-                                    Best company
-                                    in the
-                                    UK! I will recommend your services to everyone!
-                                </p>
-                            </div>
-                            <div class="card-footer-name">
-                                <h6 class="name">Mrs Mcguire</h6>
-                                <p>Tonypandy</p>
-                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card card-carousel">
+                    <div class="card-body">
+                        <p class="card-text"> Job done to perfection! Customer service exceptional! Best company in the
+                            UK! I will recommend your services to everyone!It’s
+                            so lovely to have such a great specialist company locally. Many thanks.
+                        </p>
+                        <div class="card-footer-name">
+                            <h6 class="name">Mrs Gurney</h6>
+                            <p>Newcastle Emlyn</p>
                         </div>
                     </div>
                 </div>
@@ -617,25 +604,25 @@
         </div>
     </section>
 
-    <div class="d-flex align-items-center justify-content-evenly badges">
-        <span class="badge rounded-pill bg-primary text-white text-wrap top-bagde d-none d-xl-block"><i
-                class="fa fa-star" style="font-size:14px;padding: 6px;"></i>Read our Customer Reviews
+    <div class="d-flex align-items-center justify-content-center badges">
+        <span class="badge rounded-pill text-white text-wrap top-bagde d-none d-xl-block"
+            style="background:#138BEF;margin-right: 62px;"><i class="fa fa-star"
+                style="font-size:14px;padding: 6px;"></i>Read our Customer Reviews
         </span>
         <div class="d-none d-sm-block">
-            <span class="badge rounded-pill colr text-white text-wrap top-bagde"><i class="fa fa-pencil"
+            <span class="badge rounded-pill colr text-white text-wrap top-bagde bottom-badges"><i class="fa fa-pencil"
                     style="font-size:16px;padding: 6px;"></i>Free Quote
             </span>
-            <span class="badge rounded-pill colr text-white text-wrap call ms-md-5"><i class="fa fa-phone"
-                    style="font-size:20px;padding: 6px;"></i>Call For a Quote Now on 01269
+            <span class="badge rounded-pill colr text-white text-wrap call bottom-badges"><i class="fa fa-phone"
+                    style="font-size:18px;padding: 6px;"></i>Call For a Quote Now on 01269
                 842497
             </span>
         </div>
+
         <div class="d-none d-xl-block">
-            <a href="#" class="nav-link fa fa-facebook me-5"></a>
-
-            <a class="nav-link fa fa-youtube me-5" href="#"></a>
-
-            <a class="nav-link fa fa-instagram me-5" href="#"></a>
+            <a href="#" class="nav-link fa fa-facebook" style="margin-right: 24px;"></a>
+            <a class="nav-link fa fa-youtube" href="#" style="margin-right: 16px;"></a>
+            <a class="nav-link fa fa-instagram" href="#" style="margin-right: 16px;"></a>
         </div>
     </div>
     <section class="bg-dark text-white">
@@ -691,7 +678,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
         </script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>

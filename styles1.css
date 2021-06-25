@@ -22,12 +22,21 @@ h1 {
   font: normal normal bold 30px/36px Lato;
 }
 .card-para {
-  font: normal normal medium 18px/27px Lato;
+  font: normal normal normal 18px/27px Lato;
 }
 .badge-text {
   font: normal normal normal 18px/22px Lato;
   width: 300px;
+  margin: 10px;
   color: #ffffff;
+}
+.firstrow-badges {
+  margin-top: 115px;
+  padding-top: 46px;
+}
+.secondrow-badges {
+  padding-bottom: 44px;
+  margin-top: 30px;
 }
 .p1 {
   font: normal normal normal 21px/30px Lato;
@@ -36,16 +45,14 @@ h1 {
 
 .top-bagde {
   font: normal normal normal 14px/17px Lato;
-  margin-left: 10px;
-  margin-right: 10px;
   color: #ffffff;
-  padding: 6px 20px;
+  padding: 7px 18px 8px 12px;
 }
 .nav-link.fa {
-  padding: 10px;
-  font-size: 20px;
-  height: 40px;
-  width: 40px;
+  font-size: 16px;
+  padding: 8px 7px 11px 8px;
+  height: 32px;
+  width: 32px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -68,7 +75,10 @@ h1 {
 }
 
 .fa-instagram {
-  background: transparent linear-gradient(42deg, #F4B831 0%, #EF5073 55%, #874B9E 100%) 0% 0% no-repeat padding-box;  color: white;
+  background: transparent
+    linear-gradient(42deg, #f4b831 0%, #ef5073 55%, #874b9e 100%) 0% 0%
+    no-repeat padding-box;
+  color: white;
 }
 .call {
   font: normal normal normal 18px/22px Lato;
@@ -93,16 +103,17 @@ h1 {
 .para4 {
   font: normal normal normal 16px/27px Lato;
 }
-.circle-text {
-  font: normal normal normal 22px/27px Lato;
+.circle-p1 {
+  font: normal normal bold 22px/27px Lato;
   color: #ffffff;
 }
-.circle-text1 {
+.circle-p2 {
   font: normal normal normal 16px/19px Lato;
 }
-.circle-text2 {
-  font: normal normal bold 14px/17px Lato;
+.circle-p3 {
+  font: normal normal bold 16px/19px Lato;
 }
+
 .img-badge {
   bottom: 40px;
   left: 10px;
@@ -111,57 +122,142 @@ h1 {
   font: normal normal 18px/22px Lato;
   background: #138bef;
 }
+
+.uk-premier-heading {
+  padding-top: 60px;
+}
+
 .uk-premier-para,
 .uk-premier p {
   font: normal normal normal 14px/21px Lato;
+  padding-top: 15px;
 }
 .uk-premier h6 {
   font: normal normal bold 16px/20px Lato;
 }
+.uk-premier-img {
+  padding-top: 50px;
+}
 .about-us {
   font: normal normal bold 18px/22px Lato;
   width: 178px;
+  margin: 50px 0;
+}
+
+.spilled-heading {
+  padding-top: 70px;
+}
+.spilled-para {
+  padding-bottom: 30px;
+}
+.spilled-img {
+  max-width: 585px;
+  width: 100%;
+}
+.spilled-sub {
+  padding: 50px 0;
+}
+.spilled-sub .col {
+  padding: 30px;
 }
 .rug-block {
   font: normal normal bold 21px/25px Lato;
 }
 
+.water-damage {
+  padding-top: 80px;
+}
+.water-damage-hr {
+  background: #1f8742;
+  width: 80px;
+}
+.water-damage-para {
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+.extraction-process {
+  padding-top: 90px;
+}
+
 .panel-para {
-  font: normal normal normal 13px/17px Lato;
+  font: normal normal normal 13px/18px Lato;
+  letter-spacing: 0.13px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.bg-green {
+  background: #1f8742;
 }
 
 .bg-nav {
-  background: #0E6BAD;
+  background: #0e6bad;
   font: normal normal normal 16px/19px Lato;
 }
 .nav li a {
   color: white;
 }
 
-.card.h-100 {
+.bg-primary-color {
+  background: #138bef;
+}
+
+.bg-light-color {
+  background: #f4f4f4;
+}
+
+.top-card {
+  min-height: 158px;
+  max-width: 786px;
+  width: 100%;
+  border-radius: 6px;
+}
+.top-card .card-body h1 {
+  padding: 26px 110px 18px 110px;
+}
+.top-card .card-body p {
+  padding-bottom: 29px;
+}
+/* .card.h-100 {
   border-radius: 0;
   transition: box-shadow 0.5s;
 }
 
 .card.h-100:hover {
   box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
-}
+} */
 
-.card-header {
+/* .card-header {
   padding: 10px 20px;
-}
+} */
 
 .card-body {
   font: normal normal normal 14px/17px Lato;
   letter-spacing: 0.14px;
 }
 
-.text-muted {
+.text-mute {
+  opacity: 0.4;
   color: #cfd1cf;
+  padding: 10px 20px;
+}
+
+.fa-check {
+  color: #048630;
 }
 
 .card-footer {
   background-color: #fff !important;
+}
+.card-footer h3 {
+  padding-top: 20px;
+  color: #138bef;
+}
+.card-footer p {
+  font: normal normal normal 12px/15px Lato;
+  color: #889096;
+  padding-bottom: 20px;
 }
 
 .list1 li::before {
@@ -178,29 +274,96 @@ h1 {
   font-size: 20px;
 }
 
+#vertical-hr {
+  border-right: 1px solid #707070;
+  height: 70%;
+}
+
 #green-circle {
   height: 550px;
   width: 550px;
   border-radius: 50%;
 }
 
+.green-circle-div {
+  padding-left: 50px;
+}
+
+.welcome-rug-laundry {
+  width: 550px;
+}
+
+.welcome-rug-laundry h1 {
+  padding: 96px 0 36px 0;
+}
+
+.welcome-rug-laundry .para1 {
+  padding-bottom: 28px;
+}
+
+.welcome-rug-laundry .para2 {
+  padding-bottom: 16px;
+}
+
+.welcome-rug-laundry .para3,
+.para4 {
+  padding-bottom: 24px;
+}
+
+.rug-cleaning-package {
+  padding-top: 87px;
+}
+
+.packages p {
+  padding: 0 70px 0 50px;
+}
+
+.packages p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #363636;
+  padding: 10px 20px;
+}
+/* .premium-card .card {
+  width: 420px;
+} */
+.premium-card {
+  padding-top: 51px;
+}
+.premium-heading {
+  padding-top: 51px;
+}
+/* .economy-card .card {
+  width: 390px;
+} */
+.economy-card {
+  padding-top: 80px;
+}
+.economy-heading {
+  padding-top: 48px;
+}
+/* .perfect-card .card {
+  width: 390px;
+} */
+.perfect-card {
+  padding-top: 96px;
+}
+.perfect-heading {
+  padding-top: 32px;
+}
+
+.card-bg-color {
+  background: #107ac7;
+  border-radius: 0px 8px 0px 0px;
+}
 .card-carousel {
   background: #107ac7;
-  padding: 40px 30px 60px;
 }
 
 .card-text {
   font: normal normal normal 16px/30px Lato;
 }
 
-.card-title {
-  color: #0e6bad;
-  font: normal normal bold 16px/20px Lato;
-}
-
-.card-title1 {
-  font: normal normal medium 14px/21px Lato;
-}
 .card-footer-name p {
   font: normal normal normal 12px/27px Lato;
 }
@@ -212,12 +375,15 @@ h1 {
   position: relative;
   top: -26px;
 }
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: white;
 }
 
 .colr {
   background: #048630;
+}
+.bottom-badges {
+  margin-right: 62px;
 }
 .footer-heading {
   font: normal normal bold 24px/29px Lato;
@@ -236,26 +402,36 @@ h1 {
   color: #ffffff;
   text-transform: uppercase;
 }
-.navbar-dark .navbar-toggler{
+.navbar-dark .navbar-toggler {
   color: white;
 }
 
-@media screen and (min-width: 600px) {
- 
-  .top-card{
-    width: 50%;
-    padding: 20px;
-  }
+#owl-demo .item {
+  height: 217px;
+  padding: 30px 0px;
+  margin: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
 
+iframe {
+  max-width: inherit;
 }
 
 @media screen and (max-width: 600px) {
-
-  #green-circle {
-    border-radius:0;
+  .top-card .card-body h1 {
+    padding: 10px;
+    font: normal normal bold 24px/36px Lato;
   }
- 
-  #toggle-btn{
+  #green-circle {
+    border-radius: 0;
+  }
+  .green-circle-div {
+    padding-left: 0;
+  }
+  #toggle-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,5 +441,13 @@ h1 {
     font: normal normal 12px/20px Lato;
     background: #138bef;
   }
-
+  .bottom-badges {
+    margin-right: 20px;
+  }
+  #vertical-hr {
+    border-right: 0;
+  }
+  .secondrow-badges {
+    margin-top: 0;
+  }
 }
