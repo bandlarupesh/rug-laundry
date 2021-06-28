@@ -48,7 +48,7 @@ h1 {
   color: #ffffff;
   padding: 7px 18px 8px 12px;
 }
-.nav-link.fa {
+.social-media-icon.fa {
   font-size: 16px;
   padding: 8px 7px 11px 8px;
   height: 32px;
@@ -69,7 +69,7 @@ h1 {
   color: white;
 }
 
-.nav-link.fa-phone {
+.social-media-icon.fa-phone {
   background: green;
   color: white;
 }
@@ -289,8 +289,15 @@ h1 {
   padding-left: 50px;
 }
 
+.green-circle-iframe {
+  height: 250px;
+  width: 65%;
+  top: 100px;
+  left: 100px;
+}
+
 .welcome-rug-laundry {
-  width: 550px;
+  max-width: 550px;
 }
 
 .welcome-rug-laundry h1 {
@@ -420,6 +427,12 @@ iframe {
   max-width: inherit;
 }
 
+#toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
   .top-card .card-body h1 {
     padding: 10px;
@@ -430,11 +443,6 @@ iframe {
   }
   .green-circle-div {
     padding-left: 0;
-  }
-  #toggle-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .badge.img-badge {
@@ -449,5 +457,56 @@ iframe {
   }
   .secondrow-badges {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .social-media-icon {
+    display: none;
+  }
+  .why-choose-sec {
+    flex-direction: column;
+  }
+  .welcome-rug-laundry {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .social-media-icon {
+    display: none;
+  }
+  .why-choose-sec {
+    flex-direction: column;
+  }
+  .welcome-rug-laundry {
+    max-width: 100%;
+  }
+  .firstrow-badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .secondrow-badges {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .badge-text {
+    width: -webkit-fill-available;
+  }
+  #green-circle {
+    overflow: hidden;
+    border-radius: 0;
+    width: 750px;
+  }
+  .green-circle-div {
+    padding-left: 0;
+  }
+  .green-circle-iframe {
+    height: 350px;
+    width: 70%;
+    top: 100px;
+    left: 100px;
   }
 }
